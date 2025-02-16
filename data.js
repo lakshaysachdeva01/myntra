@@ -227,9 +227,9 @@ export const sidebar = [
 
 
 import image1 from "./src/assets/swiper1.webp"
-import image2 from "./src/assets/swiper2.webp"
+import image2 from "./src/assets/Swiper2.webp"
 import image3 from "./src/assets/swiper3.webp"
-import image4 from "./src/assets/swiper4.webp"
+import image4 from "./src/assets/Swiper4.webp"
 export const swiperimages = [
   image1,
   image2,
