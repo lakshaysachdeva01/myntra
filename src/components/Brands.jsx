@@ -7,7 +7,7 @@ import brand5 from "../assets/brand5.webp"
 import brand6 from "../assets/brand3.webp"
 import brand7 from "../assets/brand4.webp"
 import brand8 from "../assets/brand5.webp"
-import SwiperBanner from "./SwiperBanner"
+import SwiperBanner from "./Swiperbanner"
 function Brands() {
   const images = [
       brand1,

@@ -1,5 +1,5 @@
 import React from "react";
-import SwiperBanner from "./SwiperBanner";
+import SwiperBanner from "./Swiperbanner";
 const Layout = ({ data, title }) => {
   return (
     <div className="container">

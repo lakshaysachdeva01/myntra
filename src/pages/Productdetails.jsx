@@ -3,7 +3,7 @@ import axios from "axios";
 import { NavLink, useParams } from "react-router-dom";
 import WishlistButton from "../components/wishlist";
 import { getProjectId } from "../projectid";
-import SwiperBanner from "../components/SwiperBanner";
+import SwiperBanner from "../components/Swiperbanner";
 const baseurl = "https://technolitics-s3-bucket.s3.ap-south-1.amazonaws.com/websitebuilder-s3-bucket/";
 
 function Productdetails() {

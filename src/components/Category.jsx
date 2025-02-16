@@ -1,6 +1,6 @@
 
 import React from "react";
-import SwiperBanner from "./SwiperBanner";
+import SwiperBanner from "./Swiperbanner";
 function Category({ data, title   }) {
   
   return (
