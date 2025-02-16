@@ -12,7 +12,7 @@ import Productdetails from "./pages/Productdetails";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';  
 import Footer from "./components/Footer";
 import CartPage from "./pages/Cart";
-import Productlist from "./pages/productlist";
+import Productlist from "./pages/Productlist";
 import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
