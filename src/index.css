@@ -231,7 +231,8 @@ scale: 1.02;
 .searchbox{
   background-color: #f5f5f6;
   border: 1ps solid #f5f5f6;
-  margin-left: 50px;
+align-items: flex-end;
+justify-content: flex-end;
   color: #454545;
   border: none;
   width: 400px;
