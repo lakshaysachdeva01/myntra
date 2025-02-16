@@ -1,7 +1,7 @@
 import React from "react";
 import WishlistButton from "./wishlist";
 import { NavLink } from "react-router-dom";
-import SwiperBanner from "./SwiperBanner"; // Import your Swiper component
+import SwiperBanner from "./Swiperbanner"; // Import your Swiper component
 
 const baseurl = "https://technolitics-s3-bucket.s3.ap-south-1.amazonaws.com/websitebuilder-s3-bucket/";
 
