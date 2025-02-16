@@ -114,7 +114,7 @@ const CartPage = () => {
                             <span>₹{totalAmount}</span>
                         </div>
                         <button
-                            className="w-full bg-[#ff3f63] text-white py-2 rounded-[3px] text-lg font-semibold hover:bg-green-600"
+                            className="w-full bg-[#ff3f63] text-white py-2 rounded-[3px] text-lg font-semibold "
                             onClick={placeOrder}
                         >
                             Place Order
