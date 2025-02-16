@@ -6,13 +6,13 @@ import Living from "./pages/Living";
 import Beauty from "./pages/Beauty";
 import Kids from "./pages/Kids";
 import Studio from "./pages/Studio";
-import Productlist from "./pages/productlist";
 import Header from "./components/Header";
 import Wishpage from "./pages/wishpage";
 import Productdetails from "./pages/Productdetails";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';  
 import Footer from "./components/Footer";
 import CartPage from "./pages/Cart";
+import Productlist from "./pages/productlist";
 import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (

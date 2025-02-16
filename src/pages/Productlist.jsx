@@ -3,7 +3,7 @@ import { NavLink, useParams } from "react-router-dom";
 import useFetchProducts from "../apicallall";
 import ProductBox from "../components/Productbox";
 import { setProjectId } from "../projectid";
-function ProductList() {
+function Productlist() {
   const projectId = "66dbecddcb3d9f4f04426320"; 
   setProjectId(projectId);
     const { name } = useParams();
@@ -58,4 +58,4 @@ const filteredProducts = products.filter((item) => item.category.name === name);
     );
 }
 
-export default ProductList;
+export default Productlist;
