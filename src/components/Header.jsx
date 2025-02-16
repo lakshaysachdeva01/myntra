@@ -25,7 +25,7 @@ function Header() {
   return (
     <div>
       <nav className="navbar">
-        <div className="contents w-[100%] xl:justify-start justify-between">
+        <div className="contents w-[100%]  justify-between">
           <img src={logo} alt="Logo" className="logo md:ml-70px ml-30px" />
 
           {/* Desktop Navigation */}
