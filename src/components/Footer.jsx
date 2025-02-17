@@ -49,8 +49,8 @@ function Footer() {
                 <div className="linkrow" style={{width:'32%'}}>
                     <div className="implink">
                         <h3>Experience myntra app on mobile</h3>
-                    <div>
-                        <img src={android} alt="image" />
+                    <div className="flex">
+                        <img src={android} className="mr-1" alt="image" />
                         <img src={apple} alt="image" />
                     </div>
                     </div>
