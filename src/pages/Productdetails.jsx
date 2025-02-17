@@ -131,6 +131,7 @@ function Productdetails() {
     }
   }}
 >
+<i className="fa-solid fa-bag-shopping text-[16px] text-white mr-4 relative"></i>
   ADD TO BAG
 </button>
 
