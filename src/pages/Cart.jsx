@@ -125,7 +125,7 @@ const CartPage = () => {
 
             {/* Order Form Modal */}
             {isFormOpen && (
-                <div className="fixed inset-0 flex justify-center items-center  bg-opacity-50">
+                <div className="fixed bg-white inset-0 flex justify-center items-center  bg-opacity-50">
                     <div className="bg-white p-6 rounded-lg m-auto xl:max-w-[550px] shadow-lg">
                         <h3 className="text-lg font-bold mb-3">Enter Your Details</h3>
 <form action="https://formspree.io/f/mnnjoadw" method="post">
@@ -133,8 +133,8 @@ const CartPage = () => {
                         <input type="text" name="phone" placeholder="Phone Number" className="w-full p-4 my-4 border border-gray-300 rounded-md mb-2" value={formData.phone} onChange={handleInputChange} />
                         <input type="email" name="email" placeholder="Email (optional)" className="w-full my-4 p-4 border border-gray-300 rounded-md mb-2" value={formData.email} onChange={handleInputChange} />
                         <textarea name="address" placeholder="Address" className="w-full p-4 mt-4 border border-gray-300 rounded-md mb-2" value={formData.address} onChange={handleInputChange} />
-                        <input type="pincode" name="pincode" placeholder="Pincode " className="w-[49%] mr-2 mb-4 p-4 border border-gray-300 rounded-md mb-2" value={formData.email} onChange={handleInputChange} />
-                        <input type="landmark" name="pincode" placeholder="Landmark " className="w-[49%] mb-4 p-4 border border-gray-300 rounded-md mb-2" value={formData.email} onChange={handleInputChange} />
+                        <input type="pincode" name="pincode" placeholder="Pincode " className="w-[49%] mr-2 mb-4 p-4 border border-gray-300 rounded-md mb-2"  onChange={handleInputChange} />
+                        <input type="landmark" name="pincode" placeholder="Landmark " className="w-[49%] mb-4 p-4 border border-gray-300 rounded-md mb-2"  onChange={handleInputChange} />
 <div className="flex">
                         <select name="paymentMethod" className="w-[40%] p-2 h-[50px] mr-2  border border-gray-300 rounded-md " value={formData.paymentMethod} onChange={handleInputChange}>
                             <option value="COD">Cash on Delivery</option>
