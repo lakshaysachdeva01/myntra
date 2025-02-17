@@ -150,7 +150,7 @@ const CartPage = () => {
 
             {/* Success Modal */}
             {isSuccessOpen && (
-                <div className="fixed inset-0 flex justify-center items-center h-[100vh] w-[100vw] p-[100px] bg-opacity-50">
+                <div className="fixed inset-0 flex justify-center items-center h-[100vh] w-[100vw] p-[30px] lg:p-[100px] bg-opacity-50">
                     <div className="bg-white p-6 rounded-lg shadow-lg">
                         <h3 className="text-lg font-bold mb-3 text-center">🎉 Congratulations! Your order is placed successfully. 🎉</h3>
                         <button className="w-full bg-[#ff3f63] text-white py-2 rounded-md mt-4" onClick={() => setIsSuccessOpen(false)}>Close</button>
